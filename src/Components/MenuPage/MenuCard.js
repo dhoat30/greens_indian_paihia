@@ -33,10 +33,13 @@ cursor: pointer;
 `
 const ImgContainer = styled.div`
 overflow: hidden;
-height: 300px
+height: 350px;
+
 `
 const ImgStyle = styled.img`
 width: 100%;
+height: 100%;
+object-fit: cover;
 transition: var(--transition);
 &:hover{
     transform: scale(1.2);

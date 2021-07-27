@@ -3,6 +3,7 @@ require("dotenv").config({
 })
 
 module.exports = {
+  pathPrefix: `/paihia-indian`,
   siteMetadata: {
     siteUrl: "https://delhi6.co.nz",
     title: "Delhi 6 Paihia",
